@@ -1,0 +1,65 @@
+
+*{
+    border: 3px;
+}
+.happy{
+    background: fixed;
+    background-color: beige;
+    color: darkcyan;
+    font: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: inherit;
+    text-align: center;
+}
+.names{
+    text-align: center;
+}
+.blocks{
+    width:20%;
+    padding:7px;
+    margin:20px;
+    background-color:blanchedalmond;
+    border:5px;
+    border-radius:3px;
+}
+@media all and (max-width: 1146px) and (min-width: 921px){
+    body{
+        width:100%;
+        margin: 70% ;
+        float:none  ;
+        padding: 30% ;
+    }
+}
+    @media all and (max-width: 920px) and (min-width: 721px){
+        body{
+            width:80%;
+            margin: 50% ;
+            float:none  ;
+            padding: 25% ;
+        }
+}
+@media all and (max-width: 720px) and (min-width: 521px){
+    body{
+        width:50%;
+        margin: 30% ;
+        float:left ;
+        padding: 15% ;
+    }
+}
+@media all and (max-width: 520px) and (min-width: 321px){
+    body{
+        width:35%;
+        margin: 20% ;
+        float:left;
+        padding: 10% ;
+    }
+}
+
+@media all and (max-width: 320px) {
+    body{
+        width: 20%;
+        margin: 4% ;
+        float: left;
+        padding: 1% ;
+    }
+}

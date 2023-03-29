@@ -1,0 +1,21 @@
+
+        html{
+            font-size: 1em;
+            background: border-box;
+            background-color: grey;
+           
+        }
+        body{
+            background-color: white;
+            margin:15%;
+            padding: 10%;
+            width : 50%;
+            align-content: left;
+            align-items: center;
+        }
+        @media screen and (max-width: 600px),screen and (orientation: landscape){
+            body{
+                color: blue;
+            }
+            
+        }

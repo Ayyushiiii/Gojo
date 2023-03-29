@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;   
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    font-weight: 100;
+}
+.contact{
+    box-sizing: border-box;
+    background-color: #7C90A0;
+    background-size:auto;
+    padding: 3px;
+    border-radius: 4px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-display:auto ;
+    font-weight: 200;
+    color: bisque;
+    text-align: center;
+    border: 20%;
+}
+
+.theform{
+    background-color:#7C90A0;
+    padding: 5px;
+    border-radius: 8pxpx;
+    background-size: auto;   font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-bottom:5%;
+    margin-left: 5%;
+    margin-right:5%;
+    font-display:auto ;
+    font-weight: 200;
+    color:bisque;
+    text-align: left;
+    
+}
+input[type="text"],
+input[type="email"],
+
+textarea{
+    width: 99%;
+    padding:12px;
+    border: 1px solid #7C90A0;
+    margin:8px;
+border-radius: 6px;
+}
+input[type="button"]{
+    width: 99%;
+    padding:12px;
+    border: 1px solid #7C90A0;
+    margin:8px;
+border-radius: 6px;
+background-color: yellowgreen;
+cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: green;
+     }
